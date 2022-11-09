@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+body{
+  
+  text-align: center;
+  background-color:rgb(241, 177, 241) 
+}
+img{
+  width:400px;
+  height: 400px;
+  padding: 40px;
+ 
+}
+
+.item{
+  
+  height: 400px;
+
+}
+
+.batimento {
+   animation: batimento 2s linear infinite;
+}
+
+@keyframes batimento{
+
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.3;
+  }
+  100%{
+    opacity:1 ;
+  }
+
+}
+
+
+
+
+h1{
+    color: rgb(114, 6, 114);
+    font-size:50px ;
+}
+
+h2{
+    color: purple;
+}
+
+
+   </style>
+ </head>
+
+<body>
+ <h1>Outubro Rosa</h1>
+ 
+ <h2>Se toque, se ame!</h2>
+
+ <div class="item batimento"><img src="https://www.freepnglogos.com/uploads/corac-o-rosa-png/imagem-cor-de-rosa-gorda-do-corac-o-download-gr-tis-14.png" alt=""></div>
+ 
+ 
+
+
+</body>
+</html>
